@@ -1,4 +1,4 @@
-def pertence_fibonacci(n):
+def pertenceFibonacci(n):
     if n < 0:
         return False
 
@@ -10,7 +10,7 @@ def pertence_fibonacci(n):
 
 teste = int(input("Digite um número: "))
 
-if pertence_fibonacci(teste):
+if pertenceFibonacci(teste):
     print(f"{teste} esta na sequencia")
 else:
     print(f"{teste} nao esta na sequencia")
